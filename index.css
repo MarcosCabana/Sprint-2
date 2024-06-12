@@ -122,9 +122,80 @@ footer{
 }
 
 .contact2>a{
-    background-color: orange;
+    background-color: chartreuse;
     color: black;
     border-radius: 20px;
     padding: 7px;
-    border: 3px solid orangered;
+    border: 3px solid green;
+}
+
+.listas{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+ul{
+    padding: 0px 20px;
+    list-style-type: square;
+    max-width: 280px;
+}
+
+ol{
+    display: flex;
+}
+
+li{
+    margin: auto;
+}
+
+table, td, th, tr{
+    border: 1px solid black;
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 40px;
+}
+
+td{
+    background-color: aliceblue;
+}
+
+.col1{
+    width: 200px;
+    background-color: chartreuse;
+}
+
+.imgtips{
+    width: 200px;
+    height: 190px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px black;
+}
+
+.benefits{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: auto;
+}
+
+#fbenefits{
+    margin-top: 10px;
 }
